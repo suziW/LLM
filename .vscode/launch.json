@@ -11,6 +11,28 @@
             "program": "${file}",
             "console": "integratedTerminal",
             "justMyCode": false
+        },
+        {
+            "name": "Python Debugger: SFT",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/sft.py",
+            "console": "integratedTerminal",
+            "justMyCode": false,
+            "args": [
+                "config/sft.yaml",
+            ]
+        },
+        {
+            "name": "Python Debugger: utils",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/utils.py",
+            "console": "integratedTerminal",
+            "justMyCode": false,
+            "args": [
+                "config/sft.yaml",
+            ]
         }
     ]
 }
